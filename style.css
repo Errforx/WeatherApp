@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .12345678);
+    font-family: NIce;
+    height: 0;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    width: 27vw;
+    height: 55vh;
+    left: 37vw;
+    top: 20vh;
+    font-size: 3.2vh;
+    border-radius: 27px;
+    box-shadow: .1px 7px 10px 5px grey;
+}
+
+.title {
+    position: relative;
+    left: 2.7vw;
+    top: .5vw;
+    user-select: none;
+    opacity: .5;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.title:hover {
+    opacity: 1;
+}
+
+.time {
+    opacity: .5;
+    position: relative;
+    left: 2.7vw;
+    top: .2vw;
+    user-select: none;
+}
+
+.time:hover {
+    opacity: 1;
+}
+
+.msg {
+    position: relative;
+    display: none;
+    color: maroon;
+    left: 4vw;
+    top: 1vw;
+    opacity: .5;
+}
+
+.msg:hover {
+    opacity: 1;
+}
+
+.weather-info {
+    position: relative;
+    left: 7vw;
+    top: 1vw;
+    opacity: .5;
+}
+
+.weather-info:hover {
+    opacity: 1;
+}
+
+.weather-temp {
+    position: relative;
+    left: 7vw;
+    top: 2vw;
+    opacity: .5;
+    cursor: pointer;
+    user-select: none;
+}
+
+.weather-temp:hover {
+    opacity: 1;
+}
+
+.location {
+    position: relative;
+    left: 7vw;
+    top: 3vw;
+    opacity: .5;
+}
+
+.location:hover {
+    opacity: 1;
+}
+
+footer {
+    position: relative;
+    top: 97vh;
+    user-select: none;
+    font-size: smaller;
+    opacity: .4;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+img {
+    position: absolute;
+}
